@@ -1,0 +1,142 @@
+/* CSS VARIABLES */
+:root {
+  --bg-color: #E6EFF5;
+  --grey: #9AA7BE;
+  --primary-blue-green: #2AB3B1;
+  --primary-lighter:#46bcba;
+  --secondary-lime-green: #C0DF33;
+
+  --white: #FFFFFF;
+}
+
+/* CSS RESET */
+
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 5. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+/*
+  9. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+
+/* Typography */
+
+.text-preset-1 {
+  color: var(--primary-blue-green);
+  font-family: "Karla", serif;
+  font-size: 1.25rem;
+  font-size: clamp(1.25rem, 1.1785714285714286rem + 0.35714285714285715vw, 1.5rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.text-preset-2 {
+  color: var(--secondary-lime-green);
+  font-family: "Karla", serif;
+  font-size: 0.9375rem;
+  font-size: clamp(0.9375rem, 0.8839285714285714rem + 0.26785714285714285vw, 1.125rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.text-preset-3 {
+  color: var(--grey);
+  font-family: "Karla", serif;
+  font-size: 0.875rem;
+font-size: clamp(0.875rem, 0.8392857142857143rem + 0.17857142857142858vw, 1rem);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+}
+
+.secondary-header {
+  color: var(--white);
+  font-family: "Karla", serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.price-text-preset {
+  color: var(--white);
+  font-family: "Karla", serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.text-preset-4 {
+  color: var(--white);
+  font-family: "Karla", serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.9625rem;
+}
+
+.btn-text-preset {
+  color: var(--white);
+  font-family: "Karla", serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.text-preset-5 {
+  color: var(--white);
+  font-family: "Karla", serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+}

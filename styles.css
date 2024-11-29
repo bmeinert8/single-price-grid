@@ -3,9 +3,8 @@
   --bg-color: #E6EFF5;
   --grey: #9AA7BE;
   --primary-blue-green: #2AB3B1;
-  --primary-lighter:#46bcba;
+  --primary-lighter:#4dbbba;
   --secondary-lime-green: #C0DF33;
-
   --white: #FFFFFF;
 }
 
@@ -50,9 +49,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 /* 8. Improve line wrapping */
-p {
-  text-wrap: pretty;
-}
+
 h1, h2, h3, h4, h5, h6 {
   text-wrap: balance;
 }
@@ -139,4 +136,115 @@ font-size: clamp(0.875rem, 0.8392857142857143rem + 0.17857142857142858vw, 1rem);
   font-style: normal;
   font-weight: 400;
   line-height: 1.25rem;
+}
+
+/* Layout */
+
+.container {
+  width: 19.4375rem;
+  height: 45.1259rem;
+  border-radius: 0.3125rem;
+  box-shadow: 0px 15px 30px 0px rgba(0, 81, 171, 0.15);
+}
+
+.card1{
+  width: 100%;
+  height: 16.69rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card2{
+  width: 100%;
+  height: 14.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.bg1 {
+  background-color: var(--white);
+  border-top-left-radius: 0.3125rem;
+  border-top-right-radius: 0.3125rem;
+}
+
+.bg2 {
+  background-color: var(--primary-blue-green);
+}
+
+.bg3 {
+  background-color: var(--primary-lighter);
+}
+
+.title-text {
+  height: 4.69rem;
+  width: 100%;
+  padding: 1.75rem 1rem 1.5rem 1.5rem;
+}
+
+.headline-text {
+  height: 3.5rem;
+  width: 100%;
+  padding: 0 1rem 1rem 1.5rem;
+}
+
+.card1-description {
+  height: 8.5rem;
+  width: 100%;
+  padding: 0 1rem 2rem 1.5rem;
+}
+
+.card2-title{
+  height: 3.94rem;
+  width: 100%;
+  padding: 1.5rem 1.5rem 1.12rem 1.5rem;
+}
+
+.card2-price{
+  height: 2.596rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 0.6875rem;
+  padding: 0 1.5rem 0.25rem 1.5rem;
+  align-items: center;
+}
+
+.alt-opacity {
+  opacity: 0.5;
+}
+
+.card2-description {
+  height: 3.25rem;
+  width: 100%;
+  padding: 0 1.5rem 1.63rem 1.5rem;
+}
+
+.btn{
+  height: 3rem;
+  width: 16.4375rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-lime-green);
+  border-radius: 0.3125rem;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+.btn-section {
+  height: 3rem;
+  width: 100%;
+  padding: 0 1.5rem;
+}
+
+.btn a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 1.5rem;
+}
+
+.alt-opacity2 {
+  opacity: 0.75;
 }

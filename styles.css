@@ -140,3 +140,12 @@ font-size: clamp(0.875rem, 0.8392857142857143rem + 0.17857142857142858vw, 1rem);
   font-weight: 400;
   line-height: 1.25rem;
 }
+
+/* Layout */
+
+.container {
+  width: 19.4375rem;
+  height: 45.1259rem;
+  border-radius: 0.3125rem;
+  box-shadow: 0px 15px 30px 0px rgba(0, 81, 171, 0.15);
+}

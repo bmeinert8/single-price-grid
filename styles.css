@@ -173,8 +173,6 @@ font-size: clamp(0.875rem, 0.8392857142857143rem + 0.17857142857142858vw, 1rem);
 
 .bg3 {
   background-color: var(--primary-lighter);
-  border-bottom-left-radius: 0.3125rem;
-  border-bottom-right-radius: 0.3125rem;
 }
 
 .title-text {
@@ -211,7 +209,7 @@ font-size: clamp(0.875rem, 0.8392857142857143rem + 0.17857142857142858vw, 1rem);
   align-items: center;
 }
 
-.alt-4 {
+.alt-opacity {
   opacity: 0.5;
 }
 
@@ -240,4 +238,9 @@ font-size: clamp(0.875rem, 0.8392857142857143rem + 0.17857142857142858vw, 1rem);
 
 .btn a {
   text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 1.5rem;
 }

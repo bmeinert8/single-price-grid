@@ -42,4 +42,31 @@
     height: 5.75rem;
     padding: 0 2.5rem 2.5rem 2.5rem;
   }
+
+  .card2-title {
+    height: 4.94rem;
+    padding: 2.5rem 2.5rem 1.12rem 2.5rem;
+  }
+
+  .card2-price {
+    height: 2.56rem;
+    padding: 0 2.5rem 0.25rem 2.59rem;
+  }
+
+  .card2-description {
+    height: 3.25rem;
+    padding: 0 2.5rem 1.63rem 2.5rem;
+  }
+
+  .btn {
+    width: 14.81rem;
+  }
+
+  .btn-section {
+    padding: 0 2.5rem;
+  }
+
+  ul {
+    padding-left: 2.5rem;
+  }
 }

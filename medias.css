@@ -1,0 +1,45 @@
+@media (min-width: 64rem) {
+  .container {
+    width: 39.69rem;
+    height: 29.69rem;
+  }
+
+  .desktop-row {
+    display: flex;
+    flex-direction: row;
+    height: 16.19rem;
+    width: 100%;
+  }
+
+  .card1 {
+    height: 13.5rem;
+  }
+
+  .card2 {
+    height: 16.19rem;
+    width: 19.845rem;
+  }
+
+  .bg2 {
+    border-bottom-left-radius: 0.3125rem;
+  }
+
+  .bg3 {
+    border-bottom-right-radius: 0.3125rem;
+  }
+
+  .title-text {
+    height: 5.75rem;
+    padding: 2.5rem 16.94rem 1.5rem 2.5rem;
+  }
+
+  .headline-text {
+    height: 2rem;
+    padding: 0 14.25rem 0.69rem 2.5rem;
+  }
+
+  .card1-description {
+    height: 5.75rem;
+    padding: 0 2.5rem 2.5rem 2.5rem;
+  }
+}
